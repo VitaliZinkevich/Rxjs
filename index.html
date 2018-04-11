@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+</head>
+<body>
+
+<h1>This is a Heading</h1>
+<p>This is a paragraph.</p>
+
+<div class="container">
+    <!-- Search controls -->
+    <h1>Search Github Users</h1>
+    <div class="form-group">
+        <label for="search-box">
+            Username:
+        </label>
+        <input
+            id="search-box"
+            type="text"
+            class="form-control"
+        />
+    </div>
+    <button
+        id="search-button"
+        class="btn btn-primary"
+    >
+        Search
+    </button>
+</div>
+<hr />
+  
+<!-- Search result -->
+<a
+    href=""
+    target="_blank"
+    id="search-result"
+    style="display:none;"
+>
+    <h2 id="search-result__login"></h2>
+    <img
+        src=""
+        alt="avatar"
+        width="150px"
+        height="150px"
+        id="search-result__avatar"
+    />
+</a>
+
+  <!-- Error message -->
+  <div
+  id="error"
+  class="well"
+  style="display:none;"
+>
+  <p id="error__message">
+  </p>
+</div>
+</div>
+
+
+
+<script src='https://unpkg.com/@reactivex/rxjs@5.5.8/dist/global/Rx.js'></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src='index.js'></script>
+
+
+
+</body>
+</html>
+
